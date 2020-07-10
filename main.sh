@@ -13,6 +13,8 @@ process_action() {
     'all')
       source scripts/system.sh
       brew bundle
+      source scripts/zsh.sh
+      source scripts/vscode.sh
       ;;
     'brew')
       brew bundle
@@ -20,7 +22,12 @@ process_action() {
     'system')
       source scripts/system.sh
       ;;
-
+    'zsh')
+      source scripts/zsh.sh
+      ;;
+    'vscode')
+      source scripts/vscode.sh
+      ;;
     'q')
       ;;
     *)
@@ -40,6 +47,8 @@ if [[ $# == 0 ]]; then
     echo "      all:  Install everything"
     echo "     brew:  Install packages & applications from Brewfile"
     echo "   system:  Install system software"
+    echo "      zsh:  Install ZSH"
+    echo "   vscode:  Install vscode with extensions"
     echo ""
     echo "        q:  Quit/Exit."
     echo ""
