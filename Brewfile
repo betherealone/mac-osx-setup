@@ -2,6 +2,9 @@ cask_args appdir: "/Applications"
 
 brew "go"
 brew "asdf"
+brew "docker"
+brew "docker-machine"
+brew "docker-compose"
 
 # Programs
 
