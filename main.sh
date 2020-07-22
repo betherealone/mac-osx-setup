@@ -15,6 +15,7 @@ process_action() {
       brew bundle
       source scripts/zsh.sh
       source scripts/vscode.sh
+      source scripts/asdf.sh
       ;;
     'brew')
       brew bundle
@@ -27,6 +28,9 @@ process_action() {
       ;;
     'vscode')
       source scripts/vscode.sh
+      ;;
+    'asdf')
+      source scripts/asdf.sh
       ;;
     'q')
       ;;
@@ -49,6 +53,7 @@ if [[ $# == 0 ]]; then
     echo "   system:  Install system software"
     echo "      zsh:  Install ZSH"
     echo "   vscode:  Install vscode with extensions"
+    echo "     asdf:  Install asdf with extensions"
     echo ""
     echo "        q:  Quit/Exit."
     echo ""

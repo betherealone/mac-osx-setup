@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 
 brew "go"
+brew "asdf"
 
 # Programs
 
