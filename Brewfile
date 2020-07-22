@@ -11,3 +11,4 @@ brew "docker-compose"
 # Apps
 cask "visual-studio-code"
 cask "hackmd"
+cask "firefox"
