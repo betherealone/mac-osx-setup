@@ -5,6 +5,10 @@ brew "asdf"
 brew "docker"
 brew "docker-machine"
 brew "docker-compose"
+brew "awscli"
+brew "minikube"
+brew "wget"
+brew "tree"
 
 # Programs
 
@@ -12,3 +16,5 @@ brew "docker-compose"
 cask "visual-studio-code"
 cask "hackmd"
 cask "firefox"
+cask "vagrant"
+cask "virtualbox"
