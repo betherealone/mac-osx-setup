@@ -9,6 +9,9 @@ brew "awscli"
 brew "minikube"
 brew "wget"
 brew "tree"
+brew "jq"
+brew "aws-iam-authenticator"
+brew "gopass"
 
 # Programs
 
@@ -16,5 +19,6 @@ brew "tree"
 cask "visual-studio-code"
 cask "hackmd"
 cask "firefox"
-cask "vagrant"
+# cask "vagrant" install through UI
 cask "virtualbox"
+#cask "vagrant-manager"
